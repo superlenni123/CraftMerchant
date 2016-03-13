@@ -29,7 +29,7 @@ public class CraftMerchant {
 	
 	private final List<TradeRecipe> recipes = new ArrayList<>();
 	
-	private MerchantRecipeList merchantList = new MerchantRecipeList();
+	private final MerchantRecipeList merchantList = new MerchantRecipeList();
 	
 	public CraftMerchant(String title, Location loca, Plugin plugin) {
 		this.plugin = plugin;
